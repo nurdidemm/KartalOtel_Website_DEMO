@@ -1,0 +1,157 @@
+﻿body {
+}
+
+header {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 690px;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#headerIMG {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1100px) {
+    #headerIMG {
+        height: 692px;
+    }
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 122px;
+    padding: 2px;
+    z-index: 1;
+}
+
+nav ul {
+    position: absolute;
+    top: 25px;
+    width: 888px;
+    height: 35px;
+    right: 5%;
+    padding: 5px 3px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 1150px) {
+    nav ul {
+        left: 200px;
+    }
+}
+
+nav li a {
+    float: left;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Bavro';
+    font-size: 13px;
+    text-shadow: 0.5px 0px black;
+}
+
+nav li a:hover {
+    text-shadow: 0.6px 0.1px white;
+    transition: 0.3s;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    left: 8%;
+    top: 8px;
+    width: 100px;
+    transition: 0.5s;
+}
+
+.slideArrow {
+    position: absolute;
+    top: 350px;
+    width: 70px;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+main {
+    position: absolute;
+    top: 695px;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 490px;
+    background-color: lightgrey;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    z-index: -1;
+}
+
+#overview {
+    margin: 65px auto 0 auto;
+    overflow: auto;
+    width: 1024px;
+}
+
+article.overview {
+    width: 250px;
+    height: 350px;
+    float: left;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 80px 80px;
+    margin: 15px auto 0px auto;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: 'Bavro';
+    color: black;
+}
+
+h3 {
+    font-size: 21px;
+    font-family: 'Bavro';
+    color: black;
+    margin: 10px 0px;
+}
+
+#discover {
+    margin: 40px auto 0 auto;
+    overflow: auto;
+    width: 1024px;
+}
+
+article.discover {
+    width: 300px;
+    height: 350px;
+    float: left;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+    box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.4), 4px 6px 20px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 2.5%;
+}
